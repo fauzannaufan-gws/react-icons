@@ -49,7 +49,7 @@ const Link = styled.a`
         width: 1rem;
     }
 
-    :hover {
+    &:hover {
         color: ${Colors.Neutral[4]};
     }
 `;
@@ -62,7 +62,7 @@ const StyledTitle = styled.h1`
     letter-spacing: -0.056rem;
     margin: 0 0 3rem;
 
-    :hover {
+    &:hover {
         ${Link} {
             opacity: 1;
         }
@@ -75,7 +75,7 @@ const StyledSecondary = styled.h1`
     font-size: 2rem;
     line-height: 2.5rem;
     margin: 1rem 0 1.5rem;
-    :hover {
+    &:hover {
         ${Link} {
             opacity: 1;
         }
@@ -87,7 +87,7 @@ const StyledTertiary = styled.h2`
     font-size: 1.625rem;
     line-height: 2.25rem;
     margin: 1rem 0 1.5rem;
-    :hover {
+    &:hover {
         ${Link} {
             opacity: 1;
         }
@@ -99,7 +99,7 @@ const StyledQuaternary = styled.h4`
     font-size: 1.125rem;
     line-height: 1.625rem;
     margin: 1.5rem 0;
-    :hover {
+    &:hover {
         ${Link} {
             opacity: 1;
         }

@@ -234,7 +234,7 @@ const Clickable = styled.div<ClickableStyleProps>`
         width: 1.5rem;
     }
 
-    :hover {
+    &:hover {
         background: ${Colors.Neutral[7]};
         svg {
             height: 2rem;
@@ -328,7 +328,7 @@ const CopyButton = styled.button`
         color: ${Colors.Neutral[8]};
     }
 
-    :hover {
+    &:hover {
         background: ${Colors.Neutral[3]};
     }
 `;

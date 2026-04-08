@@ -83,7 +83,7 @@
         "rollup-plugin-terser": "^7.0.2",
         "rollup-plugin-typescript2": "^0.31.2",
         "style-loader": "^2.0.0",
-        "styled-components": "^5.3.5",
+        "styled-components": "^6.1.19",
         "typescript": "^5.8.2"
     },
     "peerDependencies": {
