@@ -1,16 +1,16 @@
-import { INITIAL_VIEWPORTS } from "@storybook/addon-viewport";
+import { INITIAL_VIEWPORTS } from "storybook/viewport";
 import pretty from "pretty";
 
 export const parameters = {
     viewport: {
-        viewports: INITIAL_VIEWPORTS,
+        options: INITIAL_VIEWPORTS,
     },
     layout: "centered",
     controls: {
         expanded: true,
     },
     docs: {
-        transformSource: (input) => pretty(input),
+        transformSource: (input: string) => pretty(input),
     },
     options: {
         storySort: {

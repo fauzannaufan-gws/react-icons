@@ -1,12 +1,13 @@
+import { fileURLToPath } from "node:url";
 import { StorybookConfig } from "@storybook/react-webpack5";
-import path from "path";
+import path, { dirname } from "path";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const config: StorybookConfig = {
     stories: ["../stories/**/*.mdx", "../stories/**/*.stories.@(ts|tsx)"],
-    addons: [
-        "@storybook/addon-webpack5-compiler-swc",
-        "@storybook/addon-essentials",
-    ],
+    addons: ["@storybook/addon-webpack5-compiler-swc", "@storybook/addon-docs"],
     staticDirs: ["../public"],
     typescript: {
         reactDocgen: "react-docgen-typescript",
