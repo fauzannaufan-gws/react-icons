@@ -1,6 +1,6 @@
 {
     "name": "@lifesg/react-icons",
-    "version": "1.17.0",
+    "version": "1.18.0",
     "description": "An icon component library for LifeSG and BookingSG web apps",
     "main": "dist/cjs/index.js",
     "module": "dist/index.js",

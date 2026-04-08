@@ -133,6 +133,8 @@ import {
     ListIcon,
     LockFillIcon,
     LockIcon,
+    LockOpenFillIcon,
+    LockOpenIcon,
     LoginIcon,
     LogoutIcon,
     MagnifierIcon,
@@ -213,6 +215,8 @@ import {
     TabletIcon,
     TextFillIcon,
     TextIcon,
+    ThumbDownFillIcon,
+    ThumbDownIcon,
     ThumbUpFillIcon,
     ThumbUpIcon,
     TickCircleFillIcon,
@@ -409,6 +413,8 @@ export const ICONS: JSX.Element[] = [
     // Lock
     <LockIcon key="LockIcon" />,
     <LockFillIcon key="LockFillIcon" />,
+    <LockOpenIcon key="LockOpenIcon" />,
+    <LockOpenFillIcon key="LockOpenFillIcon" />,
     // Link
     <LinkIcon key="LinkIcon" />,
     // Login
@@ -525,6 +531,8 @@ export const ICONS: JSX.Element[] = [
     <TextIcon key="TextIcon" />,
     <TextFillIcon key="TextFillIcon" />,
     // ThumbUp
+    <ThumbDownIcon key="ThumbDownIcon" />,
+    <ThumbDownFillIcon key="ThumbDownFillIcon" />,
     <ThumbUpIcon key="ThumbUpIcon" />,
     <ThumbUpFillIcon key="ThumbUpFillIcon" />,
     // Tick
