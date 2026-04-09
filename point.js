@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("react/jsx-runtime");const r=r=>e.jsx("svg",{width:"1em",height:"1em",viewBox:"0 0 20 20",fill:"none",xmlns:"http://www.w3.org/2000/svg",...r,children:e.jsx("circle",{cx:10,cy:9.99992,r:1.66667,fill:"currentColor"})});r.displayName="PointIcon",exports.PointIcon=r;

@@ -1,0 +1,1 @@
+import{jsx as e}from"react/jsx-runtime";const r=r=>e("svg",{width:"1em",height:"1em",viewBox:"0 0 20 20",fill:"none",xmlns:"http://www.w3.org/2000/svg",...r,children:e("circle",{cx:10,cy:9.99992,r:1.66667,fill:"currentColor"})});r.displayName="PointIcon";export{r as PointIcon};
