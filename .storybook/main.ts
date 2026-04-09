@@ -19,6 +19,7 @@ const config: StorybookConfig = {
         ];
         return config;
     },
+    features: { sidebarOnboardingChecklist: false },
     framework: {
         name: "@storybook/react-webpack5",
         options: {},
