@@ -1,5 +1,9 @@
 import React from "react";
 import {
+    AddColumnLeftIcon,
+    AddColumnRightIcon,
+    AddRowAboveIcon,
+    AddRowBelowIcon,
     AlbumFillIcon,
     AlbumIcon,
     AlignCenterIcon,
@@ -26,10 +30,12 @@ import {
     BellIcon,
     BinFillIcon,
     BinIcon,
+    BoldIcon,
     BookmarkFillIcon,
     BookmarkIcon,
     BoxFillIcon,
     BoxIcon,
+    BoxPlusLeftIcon,
     BriefcaseFillIcon,
     BriefcaseIcon,
     BuildingIcon,
@@ -50,6 +56,7 @@ import {
     CameraFillIcon,
     CameraIcon,
     CarIcon,
+    CardStackIcon,
     CaretDownIcon,
     CaretLeftIcon,
     CaretRightIcon,
@@ -68,6 +75,7 @@ import {
     ChevronUpIcon,
     CircleDotIcon,
     CircleIcon,
+    ClearFormatIcon,
     ClockFillIcon,
     ClockIcon,
     CloudArrowDownFillIcon,
@@ -78,6 +86,7 @@ import {
     CloudIcon,
     CloudTickFillIcon,
     CloudTickIcon,
+    ColorFillIcon,
     CopyFillIcon,
     CopyIcon,
     CrossCircleFillIcon,
@@ -101,6 +110,7 @@ import {
     ExclamationCircleIcon,
     ExclamationTriangleFillIcon,
     ExclamationTriangleIcon,
+    ExpansionPanelIcon,
     ExternalIcon,
     EyeFillIcon,
     EyeIcon,
@@ -130,7 +140,9 @@ import {
     LightbulbFillIcon,
     LightbulbIcon,
     LinkIcon,
+    ListBoxIcon,
     ListIcon,
+    ListOrderedIcon,
     LockFillIcon,
     LockIcon,
     LockOpenFillIcon,
@@ -154,6 +166,7 @@ import {
     NavigationFillIcon,
     NavigationIcon,
     NonRecurringIcon,
+    NoticeboardIcon,
     PencilFillIcon,
     PencilIcon,
     PencilStrokeFillIcon,
@@ -193,7 +206,10 @@ import {
     QuestionmarkCircleIcon,
     ReadMoreIcon,
     RecurringIcon,
+    RedoIcon,
     RefreshIcon,
+    RemoveColumnIcon,
+    RemoveRowIcon,
     ReplayIcon,
     RetryIcon,
     ReturnIcon,
@@ -211,6 +227,7 @@ import {
     StarFillIcon,
     StarHalfIcon,
     StarIcon,
+    TableIcon,
     TabletFillIcon,
     TabletIcon,
     TextFillIcon,
@@ -230,10 +247,18 @@ import {
     ToggleOnIcon,
     TriangleForwardFillIcon,
     TriangleForwardIcon,
+    UndoIcon,
+    UnlinkIcon,
     UploadIcon,
 } from "../../src";
 
 export const ICONS: JSX.Element[] = [
+    // Add Column
+    <AddColumnLeftIcon key="AddColumnLeftIcon" />,
+    <AddColumnRightIcon key="AddColumnRightIcon" />,
+    // Add Row
+    <AddRowAboveIcon key="AddRowAboveIcon" />,
+    <AddRowBelowIcon key="AddRowBelowIcon" />,
     // Album
     <AlbumIcon key="AlbumIcon" />,
     <AlbumFillIcon key="AlbumFillIcon" />,
@@ -266,12 +291,15 @@ export const ICONS: JSX.Element[] = [
     // Bin
     <BinIcon key="BinIcon" />,
     <BinFillIcon key="BinFillIcon" />,
+    // Bold
+    <BoldIcon key="BoldIcon" />,
     // Bookmark
     <BookmarkIcon key="BookmarkIcon" />,
     <BookmarkFillIcon key="BookmarkFillIcon" />,
     // Box
     <BoxIcon key="BoxIcon" />,
     <BoxFillIcon key="BoxFillIcon" />,
+    <BoxPlusLeftIcon key="BoxPlusLeftIcon" />,
     // Briefcase
     <BriefcaseIcon key="BriefcaseIcon" />,
     <BriefcaseFillIcon key="BriefcaseFillIcon" />,
@@ -297,6 +325,8 @@ export const ICONS: JSX.Element[] = [
     <CameraFillIcon key="CameraFillIcon" />,
     // Car
     <CarIcon key="CarIcon" />,
+    // Card
+    <CardStackIcon key="CardStackIcon" />,
     // Caret
     <CaretLeftIcon key="CaretLeftIcon" />,
     <CaretRightIcon key="CaretRightIcon" />,
@@ -320,6 +350,8 @@ export const ICONS: JSX.Element[] = [
     // Circle
     <CircleIcon key="CircleIcon" />,
     <CircleDotIcon key="CircleDotIcon" />,
+    // Clear Format
+    <ClearFormatIcon key="ClearFormatIcon" />,
     // Clock
     <ClockIcon key="ClockIcon" />,
     <ClockFillIcon key="ClockFillIcon" />,
@@ -332,6 +364,8 @@ export const ICONS: JSX.Element[] = [
     <CloudArrowDownFillIcon key="CloudArrowDownFillIcon" />,
     <CloudTickIcon key="CloudTickIcon" />,
     <CloudTickFillIcon key="CloudTickFillIcon" />,
+    // Color
+    <ColorFillIcon key="ColorFillIcon" />,
     // Copy
     <CopyIcon key="CopyIcon" />,
     <CopyFillIcon key="CopyFillIcon" />,
@@ -365,6 +399,8 @@ export const ICONS: JSX.Element[] = [
     <ExclamationCircleFillIcon key="ExclamationCircleFillIcon" />,
     <ExclamationTriangleIcon key="ExclamationTriangleIcon" />,
     <ExclamationTriangleFillIcon key="ExclamationTriangleFillIcon" />,
+    // ExpansionPanel
+    <ExpansionPanelIcon key="ExpansionPanelIcon" />,
     // External
     <ExternalIcon key="ExternalIcon" />,
     // Eye
@@ -410,6 +446,8 @@ export const ICONS: JSX.Element[] = [
     <LightbulbFillIcon key="LightbulbFillIcon" />,
     // List
     <ListIcon key="ListIcon" />,
+    <ListBoxIcon key="ListBoxIcon" />,
+    <ListOrderedIcon key="ListOrderedIcon" />,
     // Lock
     <LockIcon key="LockIcon" />,
     <LockFillIcon key="LockFillIcon" />,
@@ -446,6 +484,8 @@ export const ICONS: JSX.Element[] = [
     <NavigationFillIcon key="NavigationFillIcon" />,
     // NonRecurring
     <NonRecurringIcon key="NonRecurringIcon" />,
+    // Noticeboard
+    <NoticeboardIcon key="NoticeboardIcon" />,
     // Pencil
     <PencilIcon key="PencilIcon" />,
     <PencilFillIcon key="PencilFillIcon" />,
@@ -497,8 +537,14 @@ export const ICONS: JSX.Element[] = [
     <ReadMoreIcon key="ReadMoreIcon" />,
     // Recurring
     <RecurringIcon key="RecurringIcon" />,
+    // Redo
+    <RedoIcon key="RedoIcon" />,
     // Refresh
     <RefreshIcon key="RefreshIcon" />,
+    // Remove Column
+    <RemoveColumnIcon key="RemoveColumnIcon" />,
+    // Remove Row
+    <RemoveRowIcon key="RemoveRowIcon" />,
     // Replay
     <ReplayIcon key="ReplayIcon" />,
     // Retry
@@ -524,6 +570,8 @@ export const ICONS: JSX.Element[] = [
     <SquareTickFillIcon key="SquareTickFillIcon" />,
     <Square2x2Icon key="Square2x2Icon" />,
     <Square2x2FillIcon key="Square2x2FillIcon" />,
+    // Table
+    <TableIcon key="TableIcon" />,
     //Tablet
     <TabletIcon key="TabletIcon" />,
     <TabletFillIcon key="TabletFillIcon" />,
@@ -550,6 +598,10 @@ export const ICONS: JSX.Element[] = [
     // Triangle
     <TriangleForwardIcon key="TriangleForwardIcon" />,
     <TriangleForwardFillIcon key="TriangleForwardFillIcon" />,
+    // Undo
+    <UndoIcon key="UndoIcon" />,
+    // Unlink
+    <UnlinkIcon key="UnlinkIcon" />,
     // Upload
     <UploadIcon key="UploadIcon" />,
 ];
