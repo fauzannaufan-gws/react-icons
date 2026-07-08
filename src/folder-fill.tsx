@@ -1,0 +1,18 @@
+import * as React from "react";
+import { SVGProps } from "react";
+export const FolderFillIcon = (props: SVGProps<SVGSVGElement>) => (
+    <svg
+        width="1em"
+        height="1em"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        {...props}
+    >
+        <path
+            d="M3.5 16C3.09722 16 2.74653 15.8507 2.44792 15.5521C2.14931 15.2535 2 14.9028 2 14.5V5.5C2 5.0875 2.14931 4.73438 2.44792 4.44063C2.74653 4.14688 3.09722 4 3.5 4H7.3675C7.56681 4 7.75681 4.03472 7.9375 4.10417C8.11806 4.17361 8.28472 4.28472 8.4375 4.4375L10 6H16.5C16.9125 6 17.2656 6.14688 17.5594 6.44063C17.8531 6.73438 18 7.0875 18 7.5V14.5C18 14.9028 17.8531 15.2535 17.5594 15.5521C17.2656 15.8507 16.9125 16 16.5 16H3.5Z"
+            fill="currentColor"
+        />
+    </svg>
+);
+FolderFillIcon.displayName = "FolderFillIcon";
