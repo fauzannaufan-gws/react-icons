@@ -1,6 +1,6 @@
 import * as React from "react";
 import { SVGProps } from "react";
-export const UnlinkIcon = (props: SVGProps<SVGSVGElement>) => (
+export const LinkSlashIcon = (props: SVGProps<SVGSVGElement>) => (
     <svg
         width="1em"
         height="1em"
@@ -15,4 +15,4 @@ export const UnlinkIcon = (props: SVGProps<SVGSVGElement>) => (
         />
     </svg>
 );
-UnlinkIcon.displayName = "UnlinkIcon";
+LinkSlashIcon.displayName = "LinkSlashIcon";
