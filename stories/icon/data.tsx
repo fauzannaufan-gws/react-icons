@@ -74,6 +74,7 @@ import {
     ChevronUpIcon,
     CircleDotIcon,
     CircleIcon,
+    ClearFormattingIcon,
     ClockFillIcon,
     ClockIcon,
     ClockRotateLeftIcon,
@@ -254,7 +255,6 @@ import {
     TextCompareIcon,
     TextFillIcon,
     TextIcon,
-    TextSlashIcon,
     ThumbDownFillIcon,
     ThumbDownIcon,
     ThumbUpFillIcon,
@@ -371,6 +371,8 @@ export const ICONS: JSX.Element[] = [
     // Circle
     <CircleIcon key="CircleIcon" />,
     <CircleDotIcon key="CircleDotIcon" />,
+    // Clear Formatting
+    <ClearFormattingIcon key="ClearFormattingIcon" />,
     // Clock
     <ClockIcon key="ClockIcon" />,
     <ClockFillIcon key="ClockFillIcon" />,
@@ -628,8 +630,6 @@ export const ICONS: JSX.Element[] = [
     // Text Compare
     <TextCompareIcon key="TextCompareIcon" />,
     <TextCompareFillIcon key="TextCompareFillIcon" />,
-    // Text Slash
-    <TextSlashIcon key="TextSlashIcon" />,
     // ThumbUp
     <ThumbDownIcon key="ThumbDownIcon" />,
     <ThumbDownFillIcon key="ThumbDownFillIcon" />,

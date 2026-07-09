@@ -1,6 +1,6 @@
 import * as React from "react";
 import { SVGProps } from "react";
-export const TextSlashIcon = (props: SVGProps<SVGSVGElement>) => (
+export const ClearFormattingIcon = (props: SVGProps<SVGSVGElement>) => (
     <svg
         width="1em"
         height="1em"
@@ -15,4 +15,4 @@ export const TextSlashIcon = (props: SVGProps<SVGSVGElement>) => (
         />
     </svg>
 );
-TextSlashIcon.displayName = "TextSlashIcon";
+ClearFormattingIcon.displayName = "ClearFormattingIcon";
